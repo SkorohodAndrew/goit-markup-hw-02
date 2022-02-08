@@ -12,23 +12,29 @@
   --accent-color: #2196f3;
   --primary-white-color: #e5e5e5;
   --title-black-color: #2f303a;
+  --primaty-bc-color: #f5f4fa;
 }
 
 body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
 }
+
 /* Logo */
 .logo {
   color: #2196f3;
+  text-decoration: none;
 }
-
+.logo .logos {
+  color: var(--primary-text-color);
+}
 .list {
   list-style: none;
 }
 /* site nav */
 .site-nav .link {
   color: var(--primary-text-color);
+  text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -38,8 +44,8 @@ body {
 /* address */
 .address .info {
   color: var(--title-text-color);
+  text-decoration: none;
 }
-
 .address .info:hover,
 .address .info:focus {
   color: var(--accent-color);
@@ -49,7 +55,6 @@ body {
   background-color: var(--title-black-color);
   color: var(--primary-white-color);
 }
-
 .hero .button {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
@@ -59,6 +64,33 @@ body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
 }
-.benefits-point-text {
+.benefits .benefits-point-text {
   color: var(--title-text-color);
 }
+/* Works */
+.section {
+  color: var(--primary-text-color);
+}
+/* team */
+.team {
+  background-color: var(--primaty-bc-color);
+}
+.team .team-hero {
+  color: var(--primary-text-color);
+}
+.team .team-work {
+  color: var(--title-text-color);
+}
+/* footer */
+.footer {
+  background-color: var(--title-black-color);
+}
+.address .street {
+  color: white;
+  text-decoration: none;
+}
+.address .info {
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+/* ПОРТФОЛИО */
