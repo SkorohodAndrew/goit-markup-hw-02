@@ -1,6 +1,56 @@
-body {
-  background-color: tomato;
+/* цвета 
+цвет основного текста #212121
+цвет втор текста #757575
+цвет акцента #2196F3
+основной цвет фона #E5E5E5 
+Цвет фота #FFFFFF 
+вторичный цвет фона #2F303A #E5E5E5 */
+
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+  --primary-white-color: #e5e5e5;
+  --title-black-color: #2f303a;
 }
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+/* Logo */
 .logo {
-  color: aqua;
+  color: #2196f3;
+}
+
+.list {
+  list-style: none;
+}
+/* site nav */
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* address */
+.address .info {
+  color: var(--title-text-color);
+}
+
+.address .info:hover,
+.address .info:focus {
+  color: var(--accent-color);
+}
+/* hero */
+.hero {
+  background-color: var(--title-black-color);
+  color: var(--primary-white-color);
+}
+
+.hero .button {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
 }
