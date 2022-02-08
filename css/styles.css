@@ -54,3 +54,11 @@ body {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 }
+/* benefits */
+.benefits .benefits-point {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+.benefits-point-text {
+  color: var(--title-text-color);
+}
