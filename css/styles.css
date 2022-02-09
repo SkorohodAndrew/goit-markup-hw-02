@@ -10,14 +10,19 @@
   --primary-text-color: #212121;
   --title-text-color: #757575;
   --accent-color: #2196f3;
+
   --primary-white-color: #e5e5e5;
-  --title-black-color: #2f303a;
   --primaty-bc-color: #f5f4fa;
+  --title-black-color: #2f303a;
+  --title-bc-color: #ffffff;
 }
 
-body {
+.body{
   background-color: var(--primary-white-color);
-  color: var(--primary-text-color);
+}
+/* Шапка сайта */
+.title{
+  background-color: var(--title-bc-color);
 }
 
 /* Logo */
@@ -41,6 +46,7 @@ body {
   color: var(--accent-color);
 }
 
+}
 /* address */
 .address .info {
   color: var(--title-text-color);
@@ -60,6 +66,10 @@ body {
   color: var(--primary-white-color);
 }
 /* benefits */
+.benefits{
+  background-color: var(--primary-white-color);
+}
+
 .benefits .benefits-point {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
@@ -69,6 +79,7 @@ body {
 }
 /* Works */
 .section {
+  background-color: var(--primary-white-color);
   color: var(--primary-text-color);
 }
 /* team */
@@ -94,3 +105,19 @@ body {
   text-decoration: none;
 }
 /* ПОРТФОЛИО */
+
+.first{
+  background-color: var(--primary-white-color);
+}
+.title .current{
+  color: var(--accent-color);
+}
+.button .all:hover, 
+.button .all:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+.work .name {
+  color: var(--title-text-color) ;
+}
