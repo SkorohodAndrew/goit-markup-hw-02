@@ -10,7 +10,6 @@
   /* Цвет фона */
   --primary-header-color: #ffffff;
   --primaty-bc-color: #2f303a;
-  --title-header-color: #e5e5e5;
   --title-bc-color: #f5f4fa;
 }
 
@@ -21,7 +20,6 @@ body {
   letter-spacing: 0.03em;
   font-weight: 500;
   color: var(--primary-text-color);
-  background-color: var(--title-header-color);
 }
 
 .title {
@@ -43,7 +41,7 @@ body {
   color: var(--primary-text-color);
 }
 /* Log */
-.header-logo {
+.header-primary {
   font-family: var(--secondary-font);
   font-size: 26px;
   line-height: 1.19;
@@ -92,17 +90,18 @@ body {
   line-height: 1.87;
 }
 /* Контент */
-.benefits {
-  background-color: var(--title-header-color);
-}
-.benefits .benefits-point {
+.benefits .benefits-title {
   font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
-.benefits .benefits-point-text {
+.benefits .benefits-subtitle {
   color: var(--secondary-text-color);
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+
 }
 /* Что мы делаем */
 .Work {
@@ -121,14 +120,33 @@ body {
 }
 .team .team-work {
   color: var(--secondary-text-color);
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
 }
 /* Footer */
+
+
 .footer {
   background-color: var(--primaty-bc-color);
   text-decoration: none;
+}
+
+.header-secondary {
+  font-family: var(--secondary-font);
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.logod{
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 1.19px;
+  letter-spacing: 0.03em;
 }
 .footer .footer-map {
   color: var(--title-text-color);
@@ -150,38 +168,38 @@ body {
 }
 /*  */
 .button{
-  color: var(--accent-color);
-font-weight: 900;
-font-style: normal;
-font-size: 16px;
-line-height: 1.6;
-letter-spacing: 0.03em;
-}
+    color: var(--accent-color);
+  font-weight: 900;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  }
 
 .button .button-list:hover, 
 .button .button-list:focus {
-background-color: var(--accent-color);
-color: var(--title-text-color);
-font-weight: 500;
-font-size: 16px;
-line-height: 1.6;
-letter-spacing: 0.03em;
-}
+  background-color: var(--accent-color);
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  }
 
 
 
 
 .gallery .gallery-title{
-color: var(--primary-text-color);
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
-}
-.gallery .gallery-name{
-color: var(--secondary-text-color);
-font-weight: 400;
-font-size: 16px;
-line-height: 1.8;
-letter-spacing: 0.03em;
-}
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  }
+  .gallery .gallery-name{
+  color: var(--secondary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  }
