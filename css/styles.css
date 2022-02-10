@@ -18,7 +18,6 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  font-weight: 500;
   color: var(--primary-text-color);
 }
 
@@ -34,7 +33,6 @@ body {
   list-style: none;
 }
 
-
 /* Шапка Сайта  */
 .header {
   background-color: var(--primary-header-color);
@@ -43,18 +41,27 @@ body {
 /* Log */
 .header-primary {
   font-family: var(--secondary-font);
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
   color: var(--accent-color);
   text-decoration: none;
 }
 .logos {
   font-family: var(--secondary-font);
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
 /* link */
+.nav {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
 .nav-link {
   color: var(--primary-text-color);
   text-decoration: none;
@@ -62,6 +69,10 @@ body {
 .nav-link:hover,
 .nav-link:focus {
   color: var(--accent-color);
+}
+.inner {
+  letter-spacing: 0.02em;
+  font-weight: 500;
 }
 .header-phone {
   color: var(--secondary-text-color);
@@ -80,14 +91,15 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-
   letter-spacing: 0.06em;
 }
 .hero-button {
   background-color: var(--accent-color);
   color: var(--title-text-color);
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
+  letter-spacing: 0.06em;
 }
 /* Контент */
 .benefits .benefits-title {
@@ -101,7 +113,6 @@ body {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-
 }
 /* Что мы делаем */
 .Work {
@@ -111,14 +122,14 @@ body {
 .team {
   background-color: var(--title-bc-color);
 }
-.team .team-hero {
+.team-hero {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
 }
-.team .team-work {
+.team-work {
   color: var(--secondary-text-color);
   font-weight: 400;
   font-size: 16px;
@@ -126,7 +137,6 @@ body {
   letter-spacing: 0.03em;
 }
 /* Footer */
-
 
 .footer {
   background-color: var(--primaty-bc-color);
@@ -141,15 +151,16 @@ body {
   text-decoration: none;
 }
 
-.logod{
+.logod {
   color: var(--title-text-color);
-  font-weight: 500;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19px;
   letter-spacing: 0.03em;
 }
 .footer .footer-map {
   color: var(--title-text-color);
+  font-style: normal;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -162,44 +173,42 @@ body {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
+
 /* ПОРТФОЛИО */
-.nav .currently{
+.nav .currently {
   color: var(--accent-color);
 }
-/*  */
-.button{
-    color: var(--accent-color);
-  font-weight: 900;
-  font-style: normal;
+/* Кнопки */
+
+.button-list {
+  background-color: var(--title-bc-color);
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.03em;
-  }
+}
 
-.button .button-list:hover, 
-.button .button-list:focus {
+.button-list:hover,
+.button-list:focus {
   background-color: var(--accent-color);
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.03em;
-  }
+}
 
-
-
-
-.gallery .gallery-title{
+.gallery-title {
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  }
-  .gallery .gallery-name{
+}
+.gallery-name {
   color: var(--secondary-text-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.03em;
-  }
+}
